@@ -4,7 +4,7 @@
 // 
 // A Game of Life by Processing
 //   - Torus geometry, i.e., under the periodic boundary condition.
-//   - Reversi-like pieces for alive (red) or dead (white) state of each cell.//
+//   - Reversi-like pieces for alive (black) or dead (white) state of each cell.//
 //
 // Based on the following example:
 //      https://processing.org/examples/gameoflife.html
