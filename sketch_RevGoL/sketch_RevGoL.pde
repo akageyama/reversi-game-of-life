@@ -13,14 +13,14 @@
 
 
 // Size of cells
-int cellSize = 40;
+int cellSize = 20;
 
 // Number of cell in x and y
 int Nx, Ny;
 
 
 // How likely for a cell to be alive at start (in percentage)
-float probabilityOfAliveAtStart = 15;
+float probabilityOfAliveAtStart = 10;
 
 // Variables for timer
 int interval = 200;
@@ -39,7 +39,7 @@ boolean pause = false;
 
 void setup() {
   // size (640, 360);
-  size (1200, 720);
+  size (800, 800);
   Nx = width / cellSize;
   Ny = height / cellSize;
   println("Nx, Ny = ", Nx, Ny);
